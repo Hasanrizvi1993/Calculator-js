@@ -1,0 +1,29 @@
+@media only screen and (max-width: 700px){
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+}
+
+#myvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+#Calculator{
+    border: 1px solid black;
+    border-width: 5px;
+    width:fit-content;
+    height: fit-content;
+    min-width: 35%;
+    min-height: 35%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    background-color: teal;
+    border-radius: 10%;
+    position: relative;
+
+}

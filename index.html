@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<link rel="stylesheet" href="./style.css" />
+		<title>Javascript Calculator</title>
+	</head>
+	<body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+		<iframe id="myvideo" allow="fullscreen" frameBorder="0" height="270" src="https://giphy.com/embed/Uq8W02NgYVH9qCfLwS/video" width="480"></iframe>
+
+
+		<div id="Calculator">
+			<h1>Calculator App</h1>
+			<input id="Result"></input>
+			
+			<!-- <input type = "button" value = "Reset data" onClick = "reset()"/> -->
+
+
+
+			<div class="addition">
+				<h4>Addition</h4>
+				<input id="firstNumber" type="number"></input>
+				<input id="secondNumber" type="number"></input>
+				<button onclick="addition()" class="btn btn-warning">+</button>
+			</div>
+			<div class="subtraction">
+				<h4>Subtraction</h4>
+				<input id="firstNumberSub" type="number"></input>
+				<input id="secondNumberSub" type="number"></input>
+				<button onclick="subtraction()" class="btn btn-warning">-</button>
+			</div>
+			<div class="multiply">
+				<h4>Multiplication</h4>
+				<input id="firstNumberMult" type="number"></input>
+				<input id="secondNumberMult" type="number"></input>
+				<button onclick="multiply()" class="btn btn-warning">x</button>
+			</div>
+			<div class="divide">
+				<h4>Division</h4>
+				<input id="firstNumberDivide" type="number"></input>
+				<input id="secondNumberDivide" type="number"></input>
+				<button onclick="division()" class="btn btn-warning">/</button>
+			</div>
+			<br>
+			<br>
+		</div>
+		<script src="./index.js"></script>
+	</body>
+</html>
